@@ -1,0 +1,35 @@
+name: Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy-to-github-pages:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 🛎️ Checkout
+      uses: actions/checkout@v4
+    
+    - name: ⚙ Setup .NET 8.0
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: 🚀 Publish .NET Core Project
+      run: dotnet publish src/ChamboulDe/ChamboulDe.csproj -c Release -o release --nologo
+    
+    - name: ✏ Change base-tag in index.html from / to ChamboulDe-Web
+      run: sed -i 's/<base href="\/" \/>/<base href="\/ChamboulDe-Web\/" \/>/g' release/wwwroot/index.html
+    
+    - name: 📄 copy index.html to 404.html
+      run: cp release/wwwroot/index.html release/wwwroot/404.html
+
+    - name: ➕ Add .nojekyll file
+      run: touch release/wwwroot/.nojekyll
+      
+    - name: 🚀 Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.6.0
+      with:
+        branch: gh-pages
+        folder: release/wwwroot
