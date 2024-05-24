@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0" branch-rate="0" lines-covered="0" lines-valid="31" branches-covered="0" branches-valid="6" complexity="16" version="0" timestamp="1716575986">
+<coverage line-rate="0" branch-rate="0" lines-covered="0" lines-valid="31" branches-covered="0" branches-valid="6" complexity="16" version="0" timestamp="1716576097">
   <sources>
     <source>/home/runner/work/ChamboulDe-Web/ChamboulDe-Web/src/ChamboulDe/</source>
   </sources>
