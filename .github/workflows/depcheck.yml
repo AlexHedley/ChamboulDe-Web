@@ -64,7 +64,7 @@ jobs:
           args: >
             --failOnCVSS 11
             --enableRetired
-            --suppression ./src/dependency-suppression.xml
+          # --suppression ./src/dependency-suppression.xml
       
       - name: ⬆️ Upload Test results
         uses: actions/upload-artifact@v4
