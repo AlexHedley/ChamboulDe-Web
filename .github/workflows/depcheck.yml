@@ -78,4 +78,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: ${{github.workspace}}/reports
+          target-folder: reports
           clean: false
