@@ -8,6 +8,11 @@
 
 [![Build / Test (with Reports)](https://github.com/AlexHedley/ChamboulDe-Web/actions/workflows/build-test.yml/badge.svg)](https://github.com/AlexHedley/ChamboulDe-Web/actions/workflows/build-test.yml)
 [![Deploy to GitHub Pages](https://github.com/AlexHedley/ChamboulDe-Web/actions/workflows/deploy-site.yml/badge.svg)](https://github.com/AlexHedley/ChamboulDe-Web/actions/workflows/deploy-site.yml)
+[![Tests](https://gist.githubusercontent.com/AlexHedley/1816533885fd3c859d2ce0d4ba6f3260/raw/ChamboulDe_blazor_tests.md_badge.svg "Tests")](https://gist.github.com/AlexHedley/1816533885fd3c859d2ce0d4ba6f3260)
+[![Report: Coverage](https://img.shields.io/badge/report-coverage-greeen.svg?style=for-the-badge)](https://alexhedley.github.io/ChamboulDe-Web/coverage/)
+[![Dependency-Check](https://img.shields.io/badge/DependencyCheck-f78d0a.svg?style=for-the-badge&logo=dependencycheck&logoColor=white)](https://alexhedley.com/ChamboulDe-Web/reports/dependency-check-report.html)
+
+<!-- https://owasp.org/www-project-dependency-check/ -->
 
 ## Site
 
