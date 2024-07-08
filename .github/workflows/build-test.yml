@@ -65,7 +65,7 @@ jobs:
         toolpath: 'reportgeneratortool' # Default directory for installing the dotnet tool.
         
     - name: Deploy Code Coverage Report
-      uses: JamesIves/github-pages-deploy-action@v4.6.1
+      uses: JamesIves/github-pages-deploy-action@v4.6.3
       with:
         branch: gh-pages
         folder: coveragereport
