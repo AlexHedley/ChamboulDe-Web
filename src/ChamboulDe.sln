@@ -3,9 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChamboulDe", "ChamboulDe\ChamboulDe.csproj", "{01A6E2BC-CA83-472C-A0CC-06E25FC4873C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChamboulDe", "ChamboulDe\ChamboulDe.csproj", "{01A6E2BC-CA83-472C-A0CC-06E25FC4873C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChamboulDe.Test", "ChamboulDe.Test\ChamboulDe.Test.csproj", "{D09CA18D-723C-467B-A149-07A14AD89293}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChamboulDe.Test", "ChamboulDe.Test\ChamboulDe.Test.csproj", "{D09CA18D-723C-467B-A149-07A14AD89293}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		..\README.md = ..\README.md
+		..\docs\README.md = ..\docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "other", "other", "{887C5FA5-717D-4BD7-BD00-16F0E7A2F112}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
