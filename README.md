@@ -22,6 +22,10 @@
 
 - [docs](docs/README.md)
 
+Mockup
+
+![Mockup](docs/images/Mockup.png "Mockup")
+
 ## src
 
 - [src](src/README.md)
@@ -41,7 +45,7 @@ Output using [dotnet-tests-report](https://github.com/marketplace/actions/dotnet
 ## Scores
 
 - https://github.com/AlexHedley/ChamboulDe
-- https://alexhedley.github.io/ChamboulDe/
+  - https://alexhedley.github.io/ChamboulDe/
 
 ## Mobile App
 
