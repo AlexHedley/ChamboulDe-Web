@@ -9,7 +9,7 @@ jobs:
     
     steps:
     - name: 🛎️ Checkout
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
     
     - name: ⚙ Setup .NET 8.0
       uses: actions/setup-dotnet@v5
