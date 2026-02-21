@@ -25,7 +25,7 @@ jobs:
 
     steps:
       - name: 🛎️ Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: ⚙️ Setup .NET10.0
         uses: actions/setup-dotnet@v4
@@ -69,13 +69,13 @@ jobs:
           # --suppression ./src/dependency-suppression.xml
 
       - name: ⬆️ Upload Test results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: Depcheck report
           path: ${{github.workspace}}/reports
 
       - name: 🌍 Commit wwwroot to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.7.3
+        uses: JamesIves/github-pages-deploy-action@v4.8.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
