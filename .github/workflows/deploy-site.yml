@@ -11,10 +11,10 @@ jobs:
     - name: 🛎️ Checkout
       uses: actions/checkout@v6
     
-    - name: ⚙ Setup .NET 8.0
-      uses: actions/setup-dotnet@v5
+    - name: ⚙ Setup .NET 10.0
+      uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: '8.0.x'
+        dotnet-version: '10.0.x'
     
     - name: 🚀 Publish .NET Core Project
       run: dotnet publish src/ChamboulDe/ChamboulDe.csproj -c Release -o release --nologo
